@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Airline Booking System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="gradient-bg">
+  <header>
+    <h1>✈️ SmartFlight Booker</h1>
+    <p>Find your next journey with live dynamic pricing</p>
+  </header>
+
+  <main>
+    <section class="search-section card">
+      <h2>🔍 Search Flights</h2>
+      <div class="form-row">
+        <input type="text" id="origin" placeholder="Origin City" />
+        <input type="text" id="destination" placeholder="Destination City" />
+        <input type="date" id="departure_time" />
+        <button onclick="searchFlights()">Search</button>
+      </div>
+    </section>
+
+    <section id="results" class="results-section"></section>
+  </main>
+
+  <footer>
+    <p>© 2025 SmartFlight Booking | Experience the Sky</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

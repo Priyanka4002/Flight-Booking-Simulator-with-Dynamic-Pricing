@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking Confirmation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="gradient-bg">
+  <header>
+    <h1>✅ Booking Confirmed</h1>
+    <p>Your ticket has been successfully booked!</p>
+  </header>
+
+  <main class="card" id="confirmation-details">
+    <p><b>Passenger:</b> <span id="passenger_name"></span></p>
+    <p><b>Airline Code:</b> <span id="airline_code"></span></p>
+    <p><b>Seat Number:</b> <span id="seat_number"></span></p>
+    <p><b>PNR:</b> <span id="pnr"></span></p>
+    <div class="btn-group">
+      <button onclick="goToReceipt()">View Receipt</button>
+      <button onclick="goHome()">Book Another</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>✨ Thank you for flying with SmartFlight ✈️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
